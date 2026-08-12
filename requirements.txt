@@ -1,0 +1,13 @@
+# Núcleo — necessário para treino e inferência offline
+numpy>=1.21
+scipy>=1.7
+pandas>=1.3
+torch>=1.12          # CPU basta; não é preciso CUDA
+mne>=1.0
+matplotlib>=3.5
+
+# Hardware — só para capturar e para o tempo real
+brainflow>=5.0       # OpenBCI Cyton
+pyserial>=3.5        # ESP32 da órtese
+opencv-python>=4.5   # tela de dicas durante a captura
+pynput>=1.7          # controle manual da órtese pelo teclado (controle_servo_1.py)

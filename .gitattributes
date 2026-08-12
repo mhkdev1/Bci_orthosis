@@ -1,0 +1,6 @@
+* text=auto
+
+*.edf binary
+*.pt  binary
+*.png binary
+*.pdf binary

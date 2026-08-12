@@ -1,0 +1,112 @@
+========================================================================
+Esquema 'centrado-transicao-v2' — janela por classe | T=526 amostras (4.10 s @ 128 Hz) | canais ['C3', 'C4', 'Cz']
+  descanso                  #################################                                                   centro na transição TAREFA->descanso
+  movimento                                                  #################################                  centro na transição descanso->TAREFA
+  ciclo     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT.................................TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT   (T=tarefa, .=descanso)
+  tempo(s)  -4      -3      -2      -1      0       1       2       3       4       5       6       7       8       
+  [aviso] as janelas ladrilham o ciclo: descanso acaba em +2.05 s e movimento começa em +2.05 s — sem sobreposição e sem buraco.
+========================================================================
+  lote: treino=16 | validação=64 | épocas=35
+================================================================
+  [aviso] sujeitos excluídos (defeituosos): [88, 89, 92, 100]
+  [aviso] sujeitos excluídos (defeituosos): [88, 89, 92, 100]
+EDF: 630 arquivos (105 sujeitos x 6 runs)
+  ...20/630 EDFs processados
+  ...40/630 EDFs processados
+  ...60/630 EDFs processados
+  ...80/630 EDFs processados
+  ...100/630 EDFs processados
+  ...120/630 EDFs processados
+  ...140/630 EDFs processados
+  ...160/630 EDFs processados
+  ...180/630 EDFs processados
+  ...200/630 EDFs processados
+  ...220/630 EDFs processados
+  ...240/630 EDFs processados
+  ...260/630 EDFs processados
+  ...280/630 EDFs processados
+  ...300/630 EDFs processados
+  ...320/630 EDFs processados
+  ...340/630 EDFs processados
+  ...360/630 EDFs processados
+  ...380/630 EDFs processados
+  ...400/630 EDFs processados
+  ...420/630 EDFs processados
+  ...440/630 EDFs processados
+  ...460/630 EDFs processados
+  ...480/630 EDFs processados
+  ...500/630 EDFs processados
+  ...520/630 EDFs processados
+  ...540/630 EDFs processados
+  ...560/630 EDFs processados
+  ...580/630 EDFs processados
+  ...600/630 EDFs processados
+  ...620/630 EDFs processados
+  ...630/630 EDFs processados
+Gravações contínuas: 87 janelas centradas (3 descartadas por não caber a metade anterior)
+Dataset: 18353 amostras | por classe {'rest': 8860, 'left': 4773, 'right': 4720} | T=526
+CSV oversample x8: +490 treino
+Arquitetura: 5 escalas x 20 filtros | depth=3 | pointwise=32 | 21,519 params
+Treinando 35 épocas (CPU) | treino=15173 val=3670
+----------------------------------------------------------------
+  época  1/35 | loss 0.9643 | tr_acc 55.2% | val_loss 0.8346 | val_acc 67.1%
+  época  2/35 | loss 0.8381 | tr_acc 64.1% | val_loss 0.7859 | val_acc 67.6%
+  época  3/35 | loss 0.7972 | tr_acc 66.3% | val_loss 0.7558 | val_acc 68.3%
+  época  4/35 | loss 0.7793 | tr_acc 67.0% | val_loss 0.7461 | val_acc 68.6%
+  época  5/35 | loss 0.7694 | tr_acc 67.7% | val_loss 0.7371 | val_acc 69.8%
+  época  6/35 | loss 0.7503 | tr_acc 68.1% | val_loss 0.7340 | val_acc 70.4%
+  época  7/35 | loss 0.7367 | tr_acc 69.4% | val_loss 0.7453 | val_acc 71.0%
+  época  8/35 | loss 0.7305 | tr_acc 70.1% | val_loss 0.7224 | val_acc 70.1%
+  época  9/35 | loss 0.7300 | tr_acc 69.5% | val_loss 0.7302 | val_acc 70.0%
+  época 10/35 | loss 0.7174 | tr_acc 70.1% | val_loss 0.7138 | val_acc 70.6%
+  época 11/35 | loss 0.7025 | tr_acc 71.1% | val_loss 0.7364 | val_acc 68.4%
+  época 12/35 | loss 0.7054 | tr_acc 70.9% | val_loss 0.7169 | val_acc 71.1%
+  época 13/35 | loss 0.6935 | tr_acc 71.2% | val_loss 0.7299 | val_acc 71.0%
+  época 14/35 | loss 0.6991 | tr_acc 71.1% | val_loss 0.7099 | val_acc 70.2%
+  época 15/35 | loss 0.6914 | tr_acc 71.2% | val_loss 0.7189 | val_acc 72.2%
+  época 16/35 | loss 0.6875 | tr_acc 71.1% | val_loss 0.7356 | val_acc 68.9%
+  época 17/35 | loss 0.6813 | tr_acc 71.7% | val_loss 0.7207 | val_acc 70.3%
+  época 18/35 | loss 0.6750 | tr_acc 72.0% | val_loss 0.7189 | val_acc 69.6%
+  época 19/35 | loss 0.6715 | tr_acc 72.4% | val_loss 0.7086 | val_acc 71.7%
+  época 20/35 | loss 0.6696 | tr_acc 72.5% | val_loss 0.7188 | val_acc 69.5%
+  época 21/35 | loss 0.6574 | tr_acc 73.0% | val_loss 0.7202 | val_acc 70.1%
+  época 22/35 | loss 0.6650 | tr_acc 72.8% | val_loss 0.7069 | val_acc 71.6%
+  época 23/35 | loss 0.6607 | tr_acc 73.1% | val_loss 0.7068 | val_acc 72.0%
+  época 24/35 | loss 0.6532 | tr_acc 73.1% | val_loss 0.7153 | val_acc 71.5%
+  época 25/35 | loss 0.6553 | tr_acc 73.1% | val_loss 0.7072 | val_acc 71.3%
+  época 26/35 | loss 0.6508 | tr_acc 73.3% | val_loss 0.7188 | val_acc 70.5%
+  época 27/35 | loss 0.6495 | tr_acc 73.0% | val_loss 0.7364 | val_acc 70.4%
+  época 28/35 | loss 0.6453 | tr_acc 73.5% | val_loss 0.7138 | val_acc 70.4%
+  época 29/35 | loss 0.6499 | tr_acc 73.5% | val_loss 0.7406 | val_acc 68.6%
+  época 30/35 | loss 0.6424 | tr_acc 73.4% | val_loss 0.7083 | val_acc 70.6%
+  época 31/35 | loss 0.6375 | tr_acc 73.6% | val_loss 0.7116 | val_acc 71.1%
+  época 32/35 | loss 0.6397 | tr_acc 73.6% | val_loss 0.7103 | val_acc 70.4%
+  época 33/35 | loss 0.6354 | tr_acc 74.1% | val_loss 0.7185 | val_acc 70.1%
+  época 34/35 | loss 0.6229 | tr_acc 74.5% | val_loss 0.7233 | val_acc 71.2%
+  época 35/35 | loss 0.6366 | tr_acc 73.5% | val_loss 0.7196 | val_acc 70.8%
+----------------------------------------------------------------
+Val unificada: 72.2% (melhor época 15)
+  original (EDF)  :  72.2%  (3653 val)
+  movimento       :  58.8%  (17 val)
+Modelo: C:\Projeto\Aquisition_teste\Aquisition_teste_v6\transiente\modelos\cnn2d_3class_transicao_105_grav_20260811_190235.pt  (+ cópia C:\Projeto\Aquisition_teste\Aquisition_teste_v6\transiente\modelos\cnn2d_3class_transicao_105_grav.pt)
+Relatório: reports\20260811_190235\relatorio.md
+Curvas: reports\20260811_190235\curvas_treino.png
+Inferências: reports\20260811_190235\inferencias_val.csv
+
+Matriz de confusão da validação (linha = real, coluna = predito)
+              rest    left   right    recall
+  rest           6       0       0    100.0%
+  left           0       3       0    100.0%
+  right          0       0       3    100.0%
+  precisão  100.0%  100.0%  100.0%
+
+  Movimento classificado como rest: 0/6 (0.0%) — é o erro que trava a órtese.
+
+Matriz de confusão da validação (linha = real, coluna = predito)
+              rest    left   right    recall
+  rest        1416     213     143     79.9%
+  left         157     683     114     71.6%
+  right        153     241     550     58.3%
+  precisão   82.0%   60.1%   68.2%
+
+  Movimento classificado como rest: 310/1898 (16.3%) — é o erro que trava a órtese.

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+modelos/*.pt
+!modelos/cnn2d_transicao.pt
+
+# LaTeX — artefatos de compilação da metodologia (o .tex e o .pdf vão para o repositório)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Notas internas de revisão, não fazem parte do pacote publicado
+CORRECOES_metodologia.md

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: BCI de imagética motora para acionamento de órtese
+message: Se este material for útil no seu trabalho, cite o DOI do depósito.
+type: software
+abstract: >-
+  Interface cérebro-computador de imagética motora com três eletrodos (C3, C4, Cz),
+  classificando descanso, mão esquerda e mão direita com uma rede convolucional, e
+  acionando uma órtese de mão por servo. Inclui código de treino, inferência offline,
+  inferência em tempo real, dados de dez sujeitos do PhysioNet eegmmidb e duas sessões
+  gravadas com OpenBCI Cyton.
+keywords:
+  - brain-computer interface
+  - motor imagery
+  - EEG
+  - convolutional neural network
+  - hand orthosis
+  - OpenBCI
+license: MIT
